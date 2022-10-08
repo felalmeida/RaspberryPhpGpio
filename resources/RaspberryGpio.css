@@ -1,0 +1,51 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color:#FFFFFF;
+    color: #5D717E;
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+#all_page {
+    margin: 0 auto;
+    /* width: 900px; */
+    width: 90%;
+    vertical-align: middle;
+    /* border:1px solid #c30; */
+}
+
+.PortNameInputClass {
+    text-align: center;
+    border: 1px dashed #CCCCCC;
+}
+
+.PhaseError {
+    padding-top:    5px;
+    padding-right:  3px;
+    padding-bottom: 5px;
+    padding-left:   3px;
+    border:         3px dashed red;
+}
+
+a:link {
+    text-decoration:  none;
+    font-weight:      bold;
+    /* background-color: #ddd; */
+    /* color:            blue; */
+}
+
+/* Index */
+#GearImg {
+    width: 15px;
+}
+
+#MainImg {
+    width: 15px;
+}
