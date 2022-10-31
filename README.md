@@ -3,9 +3,11 @@ PHP interface to use RaspberryPi GPIO
 
 You will need to install 'wiringPi', to do so use these commands:
 1) cd ~
-2) git clone git://git.drogon.net/wiringPi
-3) cd wiringPi/
-4) ./build
+2) sudo apt-get update
+3) sudo apt-get install git -y
+4) git clone git://git.drogon.net/wiringPi
+5) cd wiringPi/
+6) ./build
 
 That's it, now you will need the path to 'gpio':
 1) which gpio
